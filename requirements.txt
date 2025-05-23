@@ -1,0 +1,2 @@
+mido
+python-rtmidi  # mido benötigt dies für die MIDI-Kommunikation
