@@ -1,0 +1,52 @@
+Screen {
+    background: #202020; /* Dark background */
+    color: #DDDDDD; /* Light text */
+}
+
+Header {
+    background: #007ACC; /* A nice blue for the header */
+    color: white;
+    text-align: center;
+    padding: 1;
+}
+
+Footer {
+    background: #333333;
+    color: #AAAAAA;
+    text-align: center;
+}
+
+#app-grid {
+    grid-size: 2 4; /* 2 columns, 4 rows */
+    grid-template-columns: 30% 70%; /* First column 30%, second 70% */
+    grid-template-rows: auto auto 1fr auto; /* Rows size automatically, then one takes remaining space */
+    padding: 1 2;
+    gap: 1 2;
+}
+
+#title {
+    column-span: 2; /* Spans across both columns */
+    text-align: center;
+    text-style: bold;
+    color: #4CAF50; /* Green color */
+    padding-bottom: 1;
+}
+
+#port-list-label, #selected-port-label {
+    text-style: bold;
+    color: #FFA500; /* Orange color */
+}
+
+#log-display {
+    column-span: 2; /* Spans across both columns */
+    background: #2B2B2B; /* Slightly lighter dark background for log */
+    border: solid #555555;
+    padding: 1;
+}
+
+#instruction-footer {
+    column-span: 2;
+    text-align: center;
+    color: #888888;
+    padding-top: 1;
+}
